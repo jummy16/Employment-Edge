@@ -1,0 +1,68 @@
+/* form{
+    text-align: left;
+} */
+.signup-header{
+    width: 333px;
+    height: 32px;
+    top: 124px;
+    left: 519px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 21.38px;
+    font-weight: 600;
+    line-height: 32.07px;
+    margin: auto;
+}
+.job-seeker{
+    width: 90px;
+    height: 35px;
+    gap: 0px;
+    border-radius: 9px;
+    background-color: #000;
+    color: #fff;
+    opacity: 0px;
+    margin-left: 4rem;
+    padding: 0.9rem;
+    font-size: 12px;
+}
+.container{
+    width: 50%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 1rem;
+}
+.input-field{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 6px;
+    border: 1px solid #001F3F80;
+    margin: 1rem;
+}
+.signup-img{
+    width: 100%;
+    margin-top: 4rem;
+}
+.ReCaptcha-box{
+    width: 70%;
+    height: 10%;
+    top: 793px;
+    margin-left: 100px;
+    gap: 4.99px;
+    opacity: 0px;
+    border: 1px solid #001F3F80;
+    margin-top: 1rem;
+}
+.ReCaptcha{
+    font-size: 10px;
+    padding-top: 4rem;
+    float: right;
+    margin: 10px;
+}
+.ReCaptcha-terms{
+    font-size: 10px;
+}
+    
+
+
