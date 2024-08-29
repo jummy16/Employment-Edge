@@ -1,10 +1,11 @@
 import React from 'react'
 import './signup.css'
 import PICTURE from '../../assets/Icons/Group 353.png'
+import recaptcha from '../../assets/Icons/recaptcha.png'
 
 const Signup = () => {
   return (
-    <div>
+    <div className='section'>
         <h4 className='signup-header'>Create a free Jobbero Account</h4>
         <p className='job-seeker'>Job seeker</p>
         <div className='container'>
@@ -33,12 +34,21 @@ const Signup = () => {
                     <option>Role</option>
                 </select>
              </div>
-             <div className='ReCaptcha-box'>
-                <p className='ReCaptcha'>ReCaptcha</p>
-                <p className='ReCaptcha-terms'>Privacy-Terms</p>
-             </div>
+            <div className='ReCaptcha-box'>
+                    <input className='checkbox' type='checkbox'></input>
+                    <img className='ReCaptcha'  src={recaptcha} alt=''/>
+                    <p className='ReCaptcha-terms'>Privacy-Terms</p>
+            </div>
         </form>
-        <img className='signup-img' src={PICTURE} alt=''/>
+        <div>
+            <img className='signup-img' src={PICTURE} alt=''/>
+        </div>
+    </div>
+    <div className='second-section'>
+        <h4 className='policy'>By signing up, you agree to our <a href='#'>Privacy Policy</a></h4>
+        <button className='website-btn'><a href='#'>Sign Up</a></button>
+        <h3 className='account'>Already have an account?</h3>
+        <h3 className='sign-in'><a href='#'>Sign In</a></h3>
     </div>
 </div>
   )
